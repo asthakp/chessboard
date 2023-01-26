@@ -3,19 +3,23 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 :root {
   --darkbox: rgb(181, 136, 99);
   --lightbox: rgb(240, 217, 181);
 }
+
 h1 {
   text-align: center;
   font-weight: bold;
   margin: 2% 0;
 }
+
 .h1_white {
   background-color: var(--darkbox);
   padding: 2px;
 }
+
 .container {
   width: calc(80vh + 6px);
   height: calc(80vh + 6px);
@@ -24,14 +28,36 @@ h1 {
   display: flex;
   flex-wrap: wrap;
 }
+
 .black-box,
 .white-box {
   width: 10vh;
   height: 10vh;
+  text-align: center;
+  display: table-cell;
 }
+
 .black-box {
   background-color: var(--darkbox);
 }
+
 .white-box {
   background-color: var(--lightbox);
+}
+
+.players {
+  display: table;
+}
+
+.fa-solid {
+  font-size: 50px;
+  vertical-align: middle;
+  display: table-cell;
+}
+.dark-keys {
+  color: black;
+}
+
+.light-keys {
+  color: white;
 }
