@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --darkbox: rgb(181, 136, 99);
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 2% 0;
+}
+.h1_white {
+  background-color: var(--darkbox);
+  padding: 2px;
+}
