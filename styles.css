@@ -15,7 +15,7 @@ h1 {
   margin: 2% 0;
 }
 
-.h1_white {
+#player-heading {
   background-color: var(--darkbox);
   padding: 2px;
 }
